@@ -1,5 +1,7 @@
 import React from 'react';
 const App =() =>(
-<p>Redbus</p>
+    <div>
+        <Main/>
+    </div>
 )
 export default App
