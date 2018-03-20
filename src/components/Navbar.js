@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbaritem from './Navbar-item';
 
-const Navbar = () => {
+const Navbar = ({Title}) => {
 return (
   <div>
-   <Navbaritem />
+   {Title.map(e=> <Navbaritem titlestring={e} key = {e}/>)}
+
   </div>
-)
+  )
 }
 export default Navbar
 

@@ -1,8 +1,7 @@
 import React from 'react';
-const Navbaritem = () => (
+const Navbaritem = ({titlestring}) => (
   <div>
-    <a>Banco por Internet</a>
-    <a>Pago en Efectivo</a> 
+    <a>{titlestring}</a>
   </div> 
  )
  export default Navbaritem
