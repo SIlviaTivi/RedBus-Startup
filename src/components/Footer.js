@@ -1,9 +1,9 @@
 import React from 'react';
-
+import FooterItem from './Footer-item';
 
 const Footer = () =>(
     <div>
-        componente footer
+        <FooterItem />
     </div>
 )
 export default Footer
