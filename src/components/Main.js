@@ -1,8 +1,11 @@
 import React from 'react';
-import Payment from './Payment.js'
+import Operation from './Operation';
+import Payment from './Payment';
 
-
-const Main = () => (
-    <div><Payment /></div>
+const Main =() =>(
+    <div>
+        <Operation/>
+        <Payment/>
+    </div>
 )
 export default Main
