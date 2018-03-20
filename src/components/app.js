@@ -1,5 +1,10 @@
 import React from 'react';
+import Footer from './Footer';
+
 const App =() =>(
-<p>Redbus</p>
+    <div>
+     <Footer/>
+    </div>
+   
 )
 export default App
