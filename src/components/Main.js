@@ -1,6 +1,8 @@
 import React from 'react';
+import Payment from './Payment.js'
+
 
 const Main = () => (
-    <div>componente Main</div>
+    <div><Payment /></div>
 )
 export default Main
