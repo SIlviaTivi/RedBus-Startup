@@ -6,7 +6,7 @@ const title = ['Banca por internet','Pagar en efectivo']
 
 const Header = () => (
     <div>
-        <a><p>logo</p></a>
+        <p>logo</p>
         <Navbar Title ={title}/>
     </div>
 )

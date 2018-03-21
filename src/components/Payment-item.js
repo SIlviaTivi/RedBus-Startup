@@ -1,10 +1,17 @@
 import React from 'react';
 
-const Paymentitem = ({logopayment}) =>(
-  <div>
-    {logopayment.map(e=>
-      <div key={e.name}{...e}><a href="#"><img src={e.link} title={e.name}/><br/>{e.text}</a></div>)
-  }
-  </div>
+const Paymentitem = ({ link, text, name }) => (
+    <div className="artist-list">
+      <div>
+        <img 
+          src = {link}
+          alt = {name} 
+        />
+      </div>
+      <div className="media-body">
+        <p>{text}</p>
+      </div>
+    </div>
+  
 )
 export default Paymentitem
