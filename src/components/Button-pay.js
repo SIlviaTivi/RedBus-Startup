@@ -5,7 +5,7 @@ const btnitem = ['Ir a banca por Internet','Encuentra tu punto de pago']
 
 const ButtonPay = () =>(
   <div>
-  <buttonitem btnitem = {btnitem}/>
+  <Buttonitem btnitem = {btnitem}/>
   </div>
 )
 export default ButtonPay
