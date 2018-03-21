@@ -1,18 +1,16 @@
 import React from 'react';
-import Paymentlist from './Payment-list.js'
+import PaymentItem from './Payment-item';
 
-const logoPayment = [{ name: 'bcp', link: 'assets/img/logo/bcp.png', text: 'Agentes y Bodegas Agencias' },
-{ name: 'bbva', link: 'assets/img/logo/bbva.png', text: 'Agentes y Bodegas Agencias' },
-{ name: 'interbank', link: 'assets/img/logo/interbank.jpg', text: 'Agentes y Bodegas Agencias' },
-{ name: 'banbif', link: 'assets/img/logo/banbif.png', text: 'Agentes y Bodegas' },
-{ name: 'full-carga', link: 'assets/img/logo/full-carga.png', text: 'Agentes y Bodegas' },
-{ name: 'Scotiabanck', link: 'assets/img/logo/Scotiabank.jpg', text: 'Agentes y Bodegas Agencias' },
-{ name: 'western', link: 'assets/img/logo/western-union.png', text: 'Agentes y Bodegas' },
-{ name: 'Kasnet', link: 'assets/img/logo/Kasnet.png', text: 'Agentes y Bodegas' }]
+ const Payment = ( {arraybank, onArtistClick } ) => (
+  <ul className=" ank-detai col-md-4">
+      {arraybank.map(bank => 
+         <PaymentItem 
+            key = {bank.payment}
+            onClick = {() => onArtistClick(bank)}
+            {...bank}
+         />
+      )} 
+  </ul>
+  ) 
 
-const Payment = () => (
-  <div>
-    <Paymentlist logopayment={logoPayment} />
-  </div>
-)
 export default Payment

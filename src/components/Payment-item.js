@@ -1,17 +1,20 @@
 import React from 'react';
 
-const Paymentitem = ({ link, text, name }) => (
-    <div className="artist-list">
+const PaymentItem = ({ payment, link,text, onClick }) => (
+  <li onClick={onClick}>
+    <div >
       <div>
-        <img 
+        <img className = "img-fluid"
           src = {link}
-          alt = {name} 
+          alt = {payment} 
         />
       </div>
-      <div className="media-body">
+      <div >
         <p>{text}</p>
       </div>
     </div>
-  
+  </li>
 )
-export default Paymentitem
+
+export default PaymentItem
+
