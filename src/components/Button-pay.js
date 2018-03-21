@@ -1,8 +1,11 @@
 import React from 'react';
+import Buttonitem from './Button-item';
+
+const btnitem = ['Ir a banca por Internet','Encuentra tu punto de pago']
+
 const ButtonPay = () =>(
   <div>
-  <button>Encuentra tu punto de pago</button>
-  <button>Ir a banca por internet</button>
+  <buttonitem btnitem = {btnitem}/>
   </div>
 )
 export default ButtonPay
