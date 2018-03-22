@@ -1,5 +1,8 @@
-export default function() {
+
+const dataEfectivo = function() {
   
+  var init = {payment:'BCP',link:'assets/img/logo/bcp.png', textpe:'Agentes y Bodegas Agencias',instructionpe:'Indica que vas a realizar en pago a la empresa PAGOEFECTIVO. Indica el Código CIP:9125682 y el importe a pagar en Soles', instruction2pe:'Agentes BCP. Brinda el código de empresa O2186', instruction3pe: 'Agencias BCP. Costo adicional S/1.00'}
+
     /* pago efectivo  */
      return [{payment:'BCP',link:'assets/img/logo/bcp.png', textpe:'Agentes y Bodegas Agencias',instructionpe:'Indica que vas a realizar en pago a la empresa PAGOEFECTIVO. Indica el Código CIP:9125682 y el importe a pagar en Soles', instruction2pe:'Agentes BCP. Brinda el código de empresa O2186', instruction3pe: 'Agencias BCP. Costo adicional S/1.00'},
     {payment:'BBVA', link:'assets/img/logo/bbva.png', textpe:'Agentes y Bodegas Agencias',instructionpe:'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO. Indica el Código CIP: 9125682 y el importe a pagar en Soles'},
@@ -13,3 +16,5 @@ export default function() {
     ] 
   
   }
+
+  export default dataEfectivo

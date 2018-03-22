@@ -8,7 +8,6 @@ function mapStateToProps(state){
 }
 
 
-
 function mapDispatchToProps (dispatch){
   return bindActionCreators({ onArtistClick : selectPayment}, dispatch)
 }
