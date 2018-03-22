@@ -1,9 +1,9 @@
 import React from 'react';
 import Footeritem from './Footer-item.js'
 
-const footertitle = [{name:'Instrucciones Vía', link:'assets/img/logo/print.jpg'},
-                    {name:'Ayuda:', email:'contacto@redbus.pe'},
-                     {name:'Pago Vía', link:'assets/img/logo/pagoefectivo.png'}]
+const footertitle = [{name:'Instrucciones Vía', link:'assets/img/logo/print.jpg', class:'footer1'},
+                    {name:'Ayuda:', email:'contacto@redbus.pe', class:'footer2'},
+                    {name:'Pago Vía', link:'assets/img/logo/pagoefectivo.png', class:'footer3'}]
 
                     
 

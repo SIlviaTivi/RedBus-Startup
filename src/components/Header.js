@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 const Header = () => (
     <div>
-        <p>logo</p>
+        <div><img className="logo" src="assets/img/logo/pagoefectivo.png"/></div>
         <Navbar />
         
     </div>

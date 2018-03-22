@@ -66,3 +66,41 @@
   font-size: 28px;
 }
 /* operation fin */
+/* HEADER */
+.logo{
+  width: 150px;
+  margin: 20px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #E4A30E  !important;
+  font-weight: bold;
+}
+.nav-tabs .nav-link.active {
+  
+  border-color: rgb(228, 163, 14) #E4A30E #fff !important;
+  color: #E4A30E !important;
+}
+/* FIN DE HEADER */
+
+/* FOOTER */
+.footer1{
+  width: 30px;
+ border: 1px solid #E4A30E;
+ padding: 5px;
+ border-radius: 5px;
+ margin: 15px;
+}
+.footer2{
+  color: #E4A30E;
+  font-weight: bold;
+  margin: 0 20px 0 20px;
+}
+.footer3{
+  width: 100px;
+  
+}
+.center{
+  text-align: center;
+}
+/* FIN DEL FOOTER */
