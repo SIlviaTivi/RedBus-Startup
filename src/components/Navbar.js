@@ -1,11 +1,19 @@
 import React from 'react';
-import Navbaritem from './Navbar-item';
+import { Tabs, Tab } from 'react-bootstrap-tabs';
+import Main from './Main';
+import Main2 from './Main2';
 
-const Navbar = ({Title}) => {
+
+const Navbar = () => {
 return (
   <div>
-   {Title.map(e=> <Navbaritem titlestring={e} key = {e}/>)}
-
+   <Tabs onSelect={(index, label) => console.log(label + ' selected')}>
+            <Tab label="Banca por Internet">
+             
+                <Main/>
+            </Tab>
+            <Tab label="Pago en Efectivo"><Main2/></Tab>
+        </Tabs>
   </div>
   )
 }
