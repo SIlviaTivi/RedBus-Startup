@@ -4,7 +4,7 @@ import { selectPayment } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 function mapStateToProps(state){
- return { arraybank : state.banks }
+ return { arraybank : state.banks2 }
 }
 
 

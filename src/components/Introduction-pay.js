@@ -4,13 +4,13 @@ const InstructionPay = ({ dataInstruction }) => (
   <div className="col-md-8">
     <div >
       <h1>Instrucciones de pago</h1>
-      <div>{dataInstruction.instruction}</div>
-      <div>{dataInstruction.instruction2}</div>
-      <div>{dataInstruction.instruction3}</div>
+      <div>{dataInstruction.instructionpe}</div>
+      <div>{dataInstruction.instruction2pe}</div>
+      <div>{dataInstruction.instruction3pe}</div> 
 
-      <div>
-        <img src={dataInstruction.link} alt={dataInstruction.name}/>
-      </div>
+      <div>{dataInstruction.intbi1}</div>
+      <div>{dataInstruction.intbi2}</div>
+     
     </div>
   </div>
 )

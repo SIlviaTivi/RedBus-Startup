@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PaymentItem = ({ payment, link,text, onClick }) => (
+const PaymentItem = ({ payment, link,textpe, onClick }) => (
   <li onClick={onClick}>
     <div >
       <div>
@@ -10,7 +10,7 @@ const PaymentItem = ({ payment, link,text, onClick }) => (
         />
       </div>
       <div >
-        <p>{text}</p>
+        <p>{textpe}</p>
       </div>
     </div>
   </li>

@@ -30,6 +30,7 @@
     "lodash": "^3.10.1",
     "prop-types": "^15.6.1",
     "react": "^0.14.9",
+    "react-bootstrap-tabs": "^1.0.2",
     "react-dom": "^0.14.9",
     "react-redux": "^4.4.8",
     "react-router": "^2.8.1",
