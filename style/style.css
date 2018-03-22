@@ -1,6 +1,68 @@
-.sizeimg{
-  width: 100px;
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
 }
 .img-fluid{
   width: 100px;
 }
+
+/* operation */
+
+.operation{
+
+  text-align: center;
+}
+.inline-op{
+  display: inline-block
+}
+.clock{
+  width: 60px;
+  position: absolute;
+  right: 450px;
+
+}
+
+.block-operation{
+  display: inline-block;
+  width: 20%;
+
+  
+}
+
+
+.blk1{
+  color:white ;
+  background: #F1C510   ;
+  padding: 4%;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.blk2{
+  color:black;
+  background: rgb(235, 238, 232);
+  padding: 5%;
+
+}
+
+.blk3{
+  color:black;
+  background: hsl(44, 62%, 65%);
+  padding: 5%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+}
+
+.fdcode{
+  font-size: 40px;
+}
+.fdtotal{
+  font-size: 30px;
+}
+.fdday{
+  font-size: 28px;
+}
+/* operation fin */
