@@ -3,7 +3,7 @@ const dataInternet = function() {
    var init = {payment:'BCP',link:'assets/img/logo/bcp.png', intbi1:'Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > SOLES', intbi2:'Ingresa tu código CIP: 9125682 y sigue los pasos'}
   
   
-   return [{payment:'BCP',link:'assets/img/logo/bcp.png', intbi1:'Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > SOLES', intbi2:'Ingresa tu código CIP: 9125682 y sigue los pasos'},
+   return [{payment:'BCP',link:'assets/img/logo/bcp.png', intbi1:'Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > SOLES', intbi2:'Ingresa tu código CIP: 9125682 y sigue los pasos',num1:'1',num2:'2'},
   {payment:'BBVA', link:'assets/img/logo/bbva.png', intbi1:'Selecciona la opción Pago de servicios > De Instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES', intbi2:'Ingresa tu código CIP: 9125682 y sigue los pasos'},
   {payment:'Interbank', link:'assets/img/logo/interbank.jpg', intbi1:'Selecciona la opción Pago a Instituciones o Empresa > Empresa PAGOEFECTIVO > Servicio: PAGOEFECTIVO', intbi2:'Ingresa tu código CIP:9125682 y sigue los pasos'},
   {payment:'Banbif',link:'assets/img/logo/banbif.png', intbi1:'Selecciona la opción Pago de servicios > Busca por Empresa y escribe PAGOEFECTIVO > Selecciona la empresa PAGOEFECTIVO', intbi2:'Ingresa tu código CIP: 9125682 y sigue los pasos'},

@@ -1,9 +1,96 @@
-.sizeimg{
-  width: 100px;
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
 }
 .img-fluid{
   width: 100px;
 }
+
+/* operation */
+
+.operation{
+  text-align: center;
+}
+.inline-op{
+  display: inline-block
+}
+.clock{
+  width: 1em;
+}
+.operation-block{
+
+}
+
+.block-operation{
+  display: inline-block;
+
+  width: 20em;
+  
+}
+.blk1{
+  color:white ;
+  background: #F1C510;
+ 
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  line-height: 1.6em
+}
+
+.blk2{
+  color:black;
+  background: rgb(235, 238, 232);
+  line-height: 1.6em
+
+}
+
+.blk3{
+  color:black;
+  background: hsl(44, 62%, 65%);
+
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  line-height: 1.5em
+
+}
+
+.fdcode{
+  font-size: 20px;
+}
+.fdtotal{
+  font-size: 20px;
+}
+.fdday{
+  font-size: 20px;
+}
+.fdcant{
+  font-size: 20px;
+
+}
+
+/*  Payment*/
+.blockpayment{
+  background: deeppink;
+  text-align: center; 
+}
+
+.totalpayment{
+  border: 3px solid green;
+}
+
+.payintemblock{
+  background: blueviolet;
+}
+
+.imgpament{
+  background: salmon;
+  display: inline-block;
+}
+
+/* operation fin */
+
+
 /* HEADER */
 .logo{
   width: 150px;
@@ -36,9 +123,33 @@
 }
 .footer3{
   width: 100px;
-  
 }
 .center{
   text-align: center;
 }
 /* FIN DEL FOOTER */
+/* BTN */
+.btn{
+  background-color: #BD4545;
+  color: rgb(255, 255, 255);
+  width: 65%;
+  margin: 2% 10%;
+
+}
+.btncenter{
+  text-align: center;
+}
+/* FIN DE BTN */
+
+/* FIN DE INTRUCCIONES */
+.intTitle{
+  font-weight: bold;
+  font-size: 15px;
+  color: #E4A30E;
+}
+.int{
+  font-size: 13px;
+}
+.intcenter{
+  text-align: center;
+}

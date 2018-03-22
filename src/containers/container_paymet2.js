@@ -9,7 +9,7 @@ function mapStateToProps(state){
 
 
 function mapDispatchToProps (dispatch){
-  return bindActionCreators({ onArtistClick : selectPayment}, dispatch)
+  return bindActionCreators({ onBankClick : selectPayment}, dispatch)
 }
 
 export default connect(mapStateToProps,mapDispatchToProps)(Payment)

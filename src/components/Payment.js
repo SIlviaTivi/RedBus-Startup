@@ -1,16 +1,16 @@
 import React from 'react';
 import PaymentItem from './Payment-item';
 
- const Payment = ( {arraybank, onArtistClick } ) => (
-  <ul className=" ank-detai col-md-4">
+ const Payment = ( {arraybank, onBankClick } ) => (
+  <div className=" ank-detai">
       {arraybank.map(bank => 
          <PaymentItem 
             key = {bank.payment}
-            onClick = {() => onArtistClick(bank)}
+            onClick = {() => onBankClick(bank)}
             {...bank}
          />
       )} 
-  </ul>
+  </div>
   ) 
 
 export default Payment

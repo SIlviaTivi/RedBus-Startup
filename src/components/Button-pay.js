@@ -4,7 +4,7 @@ import Buttonitem from './Button-item';
 const btnitem = ['Ir a banca por Internet']
 
 const ButtonPay2 = () =>(
-  <div>
+  <div className="btncenter">
   <Buttonitem btnitem = {btnitem}/>
   </div>
 )
