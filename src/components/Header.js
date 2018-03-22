@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
+import './style/style.css'
 
 
 
 const Header = () => (
     <div>
-        <div><img className="logo" src="assets/img/logo/pagoefectivo.png"/></div>
+        <img className="logo" src="https://image.ibb.co/jXYe0H/pagoefectivo.png"/>
         <Navbar />
         
     </div>
