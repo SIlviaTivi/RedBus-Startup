@@ -11,61 +11,86 @@
 /* operation */
 
 .operation{
-
   text-align: center;
 }
 .inline-op{
   display: inline-block
 }
 .clock{
-  width: 60px;
-  position: absolute;
-  right: 450px;
+  width: 1em;
+}
+.operation-block{
 
 }
 
 .block-operation{
   display: inline-block;
-  width: 20%;
 
+  width: 20em;
   
 }
-
-
 .blk1{
   color:white ;
-  background: #F1C510   ;
-  padding: 4%;
+  background: #F1C510;
+ 
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+  line-height: 1.6em
 }
 
 .blk2{
   color:black;
   background: rgb(235, 238, 232);
-  padding: 5%;
+  line-height: 1.6em
 
 }
 
 .blk3{
   color:black;
   background: hsl(44, 62%, 65%);
-  padding: 5%;
+
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
+  line-height: 1.5em
 
 }
 
 .fdcode{
-  font-size: 40px;
+  font-size: 20px;
 }
 .fdtotal{
-  font-size: 30px;
+  font-size: 20px;
 }
 .fdday{
-  font-size: 28px;
+  font-size: 20px;
 }
+.fdcant{
+  font-size: 20px;
+
+}
+
+/*  Payment*/
+.blockpayment{
+  background: deeppink;
+  text-align: center; 
+}
+
+.totalpayment{
+  border: 3px solid green;
+}
+
+.payintemblock{
+  background: blueviolet;
+}
+
+.imgpament{
+  background: salmon;
+  display: inline-block;
+}
+
 /* operation fin */
+
+
 /* HEADER */
 .logo{
   width: 150px;
@@ -98,7 +123,6 @@
 }
 .footer3{
   width: 100px;
-  
 }
 .center{
   text-align: center;
