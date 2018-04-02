@@ -7,7 +7,7 @@ const operationdata = [{namecode:'Código de pago', code:'9125682', class1:'blk1
                 
 
 const Operation = () => (
-    <div  >
+    <div>
     <OperationItem  operation = {operationdata}/>
     </div>
 )

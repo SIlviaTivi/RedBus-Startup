@@ -152,3 +152,18 @@
 .intcenter{
   text-align: center;
 }
+
+/* login */
+.loginblock{
+  float: right;
+  margin: 10px;
+}
+.bnlogin{
+  background: #fff;
+  color: rgb(194, 21, 21);
+  border: 1px solid rgb(194, 21, 21);
+  border-radius: 3px;
+  padding:0 2px;
+
+}
+/* fin login */
